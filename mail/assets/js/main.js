@@ -23,3 +23,13 @@ for (let i = 0; i < email.length; i++) {
 	}
 }
 console.log(emailTrovata);
+
+const msg = document.getElementById("mail");
+
+if (emailTrovata) {
+	console.log("Perfetto, la sua e-mail è presente nella lista");
+	msg.innerHTML = "Perfetto, la sua e-mail è presente nella lista";
+} else {
+	console.log("Mi dispiace, la sua e-mail non è presente nella lista");
+	msg.innerHTML = "Mi dispiace, la sua e-mail non è presente nella lista";
+}

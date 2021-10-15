@@ -8,8 +8,7 @@ const numUser = prompt("Inserire un numero compreso tra 1 a 6");
 const numComputer = Math.floor(Math.random() * 7);
 
 // console.log
-console.log(numUser);
-console.log(numComputer);
+console.log(numUser, numComputer);
 
 // condizionale if
 if (numUser > numComputer) {
